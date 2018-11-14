@@ -14,6 +14,7 @@ Create below Lightning application in your Salesforce instance and name it as **
 ### Step 2
 Create Connected App in your Salesforce instance with callback URL - `https://testforlightningout.herokuapp.com/oauthcallback.html`
 Copy consumer secret created in connected app and update clientId variable defined in [OAuth.js](/testforlightningout/blob/master/client/js/OAuth.js) file
+
 Note: https://testforlightningout.herokuapp.com is my example and you'd need to use your own heroku Dyno
 
 ### Step 3 
