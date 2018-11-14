@@ -3,10 +3,9 @@ $("#prodBtn").click(prodLogin);
 $("#sandBtn").click(sandLogin);
 
 var apiVersion = 'v37.0',
-    clientId = '3MVG9HxRZv05HarQCXE6FtV6Ffyr3vvu1N32Yj7XRTskiPPD_8sAtWrdhQO7dTngEyeKlnxISnsf9e7c0wqc0',
+    clientId = '3MVG9HxRZv05HarQCXE6FtV6Ff0knOEhBK.Gtacg2QPqQH2S9YEkbPmj0khlQr6UNnjhGArhSG7NJKo2XH.Gc',
     loginUrl = 'https://login.salesforce.com/',
-    //redirectURI = 'http://localhost:8081',
-	redirectURI = "https://localhost:8081/oauthcallback.html",
+    redirectURI = "https://testforlightningout.herokuapp.com/oauthcallback.html",
     proxyURL = 'http://localhost:8080/proxy/';
  
 
