@@ -2,13 +2,10 @@
 
 ### Step 1
 Create account list as per https://trailhead.salesforce.com/en/content/learn/projects/slds-lightning-components-workshop/slds-lc-4
-
 Create below Lightning application in your Salesforce instance and name it as **LightningOutDemo**
 
 `<aura:application access="Global" extends="ltng:outApp">`
-
 `<c:AccountList />`
-
 `</aura:application>`
 
 ### Step 2
